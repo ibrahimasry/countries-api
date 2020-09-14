@@ -25,7 +25,7 @@ export const Option = styled.option`
 
   /* inherit font & color from ancestor */
   color: ${({ theme }) => theme.text};
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: 400;
   padding: 1rem;
 `;

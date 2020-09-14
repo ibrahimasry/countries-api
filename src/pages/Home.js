@@ -57,11 +57,7 @@ const Home = () => {
           </Icon>
         </Wrapper>
         <Select onChange={onSelectHandler}>
-          <Option
-            value=""
-            hidden
-            style={{ display: "none", fontSize: "1.5rem" }}
-          >
+          <Option value="" hidden>
             filter by region
           </Option>
 
