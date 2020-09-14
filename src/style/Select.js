@@ -13,7 +13,7 @@ export default styled.select`
   padding: 1rem;
 
   @media only screen and (max-width: 635px) {
-    width: 40%;
+    width: 50%;
   }
 `;
 
