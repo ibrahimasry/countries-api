@@ -20,6 +20,8 @@ export default styled.section`
 
 export const Card = styled.div`
   display: flex;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
   flex-direction: column;
   justify-content: space-between;
   background-color: ${({ theme }) => theme.element};

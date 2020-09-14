@@ -3,7 +3,6 @@ import styled from "styled-components";
 export default styled.select`
   border: none;
   outline: none;
-  flex-grow: 1;
   appearance: none;
   background: ${({ theme }) => theme.element};
 
@@ -12,6 +11,10 @@ export default styled.select`
   font-size: 1.5rem;
   font-weight: 400;
   padding: 1rem;
+
+  @media only screen and (max-width: 635px) {
+    width: 40%;
+  }
 `;
 
 export const Option = styled.option`

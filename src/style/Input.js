@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 0.5rem;
   color: ${({ theme }) => theme.text};
-  flex-grow: 4;
   position: relative;
+  width: 70%;
+  @media only screen and (max-width: 635px) {
+    width: 100%;
+  }
 `;
 
 export const Input = styled.input`
@@ -16,11 +18,15 @@ export const Input = styled.input`
 
   color: ${({ theme }) => theme.text};
   background-color: ${({ theme }) => theme.input};
+  @media only screen and (max-width: 635px) {
+    width: 100%;
+  }
 `;
 
 export const Icon = styled.div`
   padding: 0.8rem 1rem;
   position: absolute;
-  top: 0.5rem;
+  top: 0.4rem;
   left: 0;
+  margin-left: 0;
 `;

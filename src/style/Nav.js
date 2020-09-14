@@ -6,8 +6,10 @@ export default styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.1);
+
   background-color: ${({ theme }) => theme.element};
   & > * {
-    margin: 0 4rem;
+    margin: 0 1.7rem;
   }
 `;

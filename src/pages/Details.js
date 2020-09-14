@@ -17,13 +17,13 @@ const Details = (props) => {
   let country = props.location.state.country;
   useEffect(() => {
     if (country) {
-      console.log(country);
       const newData = { ...country };
       newData.languages = country.languages.map((l) => l.name).join(", ");
       newData.currencies = country.currencies.map((l) => l.name).join(", ");
       setData(newData);
     }
   }, []);
+  if (!data.name) return <div>loading</div>;
   return (
     <>
       <Container>
@@ -60,7 +60,8 @@ const Details = (props) => {
 
                 <li>
                   {" "}
-                  <strong>Population</strong> : {data.population}
+                  <strong>Population</strong> :{" "}
+                  {data.population.toLocaleString()}
                 </li>
               </Info>
 

@@ -6,7 +6,11 @@ export default styled.section`
   margin: 2rem 0;
   justify-content: space-between;
   align-items: center;
-  & > * {
-    margin: 0 1rem;
+  @media only screen and (max-width: 635px) {
+    flex-direction: column;
+    align-items: flex-start;
+    & > * {
+      margin: 1rem 0;
+    }
   }
 `;

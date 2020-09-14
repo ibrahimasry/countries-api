@@ -4,6 +4,7 @@ export default styled.div`
   display: flex;
   flex-direction: column;
   font-weight: 400;
+
   & > * + * {
     margin-top: 2rem;
   }

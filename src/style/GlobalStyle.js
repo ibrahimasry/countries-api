@@ -30,6 +30,11 @@ export default createGlobalStyle`
   *::before {
     padding: 0;
     margin: 0;
+    font-size: inherit;
+    font: inherit;
+  }
+  span {
+    font-size: inherit;
   }
   html {
     font-size: 62.5%;
@@ -44,10 +49,19 @@ export default createGlobalStyle`
     min-height: 100vh;
     color : ${({ theme }) => theme.text};
     line-height:1;
-    overflow:scroll;
+    font-size : 16px;
+
   }
   li {
     list-style-type: none
   }
+
+  @media only screen and (max-width: 635px) {
+    body {
+      font-size : 14px;
+    }
+
+  }
+
 
 `;

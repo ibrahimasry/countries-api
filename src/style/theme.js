@@ -1,5 +1,5 @@
 export const lightTheme = {
-  input: "hsl(0, 0%, 52%)",
+  input: "hsl(0, 0%, 98%)",
   text: "hsl(200, 15%, 8%)",
   backGround: "hsl(0, 0%, 98%)",
   element: "hsl(0, 0%, 100%)",
