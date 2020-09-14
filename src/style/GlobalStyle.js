@@ -49,6 +49,7 @@ export default createGlobalStyle`
     min-height: 100vh;
     color : ${({ theme }) => theme.text};
     line-height:1.2;
+    overflow:hidden;
     font-size : 18px;
 
   }
