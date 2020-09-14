@@ -16,7 +16,7 @@ const Info = styled(Flex)`
 
   @media only screen and (max-width: 635px) {
     white-space: wrap;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 100%;
     flex-wrap: nowrap;
 
