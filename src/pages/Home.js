@@ -57,9 +57,12 @@ const Home = () => {
           </Icon>
         </Wrapper>
         <Select onChange={onSelectHandler}>
-          <Option disabled selected value style={{ display: "none" }}>
-            {" "}
-            filter by region{" "}
+          <Option
+            value=""
+            hidden
+            style={{ display: "none", fontSize: "1.5rem" }}
+          >
+            filter by region
           </Option>
 
           <Option value="Asia">Asia</Option>
