@@ -48,7 +48,7 @@ export default createGlobalStyle`
     background: ${({ theme }) => theme.backGround};
     min-height: 100vh;
     color : ${({ theme }) => theme.text};
-    line-height:1;
+    line-height:1.2;
     font-size : 18px;
 
   }
@@ -59,7 +59,6 @@ export default createGlobalStyle`
   @media only screen and (max-width: 635px) {
     body {
       font-size : 16px;
-      overflow:hidden;
     }
 
   }
