@@ -5,8 +5,9 @@ export default styled.div`
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
+  font-weight: 400;
 
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   @media only screen and (max-width: 635px) {
     & strong {
       width: 100%;

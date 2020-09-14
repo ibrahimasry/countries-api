@@ -49,9 +49,10 @@ export default createGlobalStyle`
     min-height: 100vh;
     color : ${({ theme }) => theme.text};
     line-height:1.2;
-    overflow:hidden;
     font-size : 18px;
-
+    margin : 0;
+    padding : 0;
+    overflow-x: hidden;
   }
   li {
     list-style-type: none
